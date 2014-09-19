@@ -1,0 +1,51 @@
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+}
+
+
+.header{
+	background-color: #ecf0f1;
+	padding-top: 40px;
+	/*padding-left:50px;*/
+	padding-bottom: 40px;
+
+}
+
+.header .logo{
+	font-family: 'Lobster Two', cursive;
+	font-size: 40px;
+}
+
+.header .links{
+	
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.header .title{
+	
+	font-size: 50px;
+	padding-top: 80px;
+}
+
+.header .subtitle{
+	
+	font-size: 15px;
+	font-family: 'Lobster Two', cursive;
+	padding-top: 60px;
+}
+
+.video{
+	background-color: #FFECDB;
+	padding-top:20px;
+	padding-bottom:20px;
+
+}
+
+.videocontainer{
+	background-color:#34495e;
+	height:315px;
+	border-radius: 6px;
+}
+
