@@ -3,49 +3,74 @@ body{
 	font-size: 18px;
 }
 
-
-.header{
-	background-color: #ecf0f1;
-	padding-top: 40px;
-	/*padding-left:50px;*/
-	padding-bottom: 40px;
-
-}
-
-.header .logo{
+.subtitle{
 	font-family: 'Lobster Two', cursive;
-	font-size: 40px;
-}
-
-.header .links{
-	
 	font-size: 20px;
-	padding-top: 20px;
+}
+.pad{
+	padding-top: 40px;
 }
 
-.header .title{
-	
-	font-size: 50px;
-	padding-top: 80px;
-}
 
-.header .subtitle{
-	
-	font-size: 15px;
-	font-family: 'Lobster Two', cursive;
-	padding-top: 60px;
-}
+	.header{
+		background-color: #E4F1FE;
+		padding-top: 40px;
+		/*padding-left:50px;*/
+		padding-bottom: 40px;
 
-.video{
-	background-color: #FFECDB;
-	padding-top:20px;
-	padding-bottom:20px;
+	}
 
-}
+		.header .logo{
+			font-family: 'Lobster Two', cursive;
+			font-size: 40px;
+		}
 
-.videocontainer{
-	background-color:#34495e;
-	height:315px;
-	border-radius: 6px;
-}
+		.header .links{
+			
+			font-size: 20px;
+			padding-top: 20px;
+		}
 
+		.header .title{
+			
+			font-size: 50px;
+			padding-top: 80px;
+		}
+
+		.header .subtitle{
+			
+			font-size: 25px;
+			font-family: 'Lobster Two', cursive;
+		}
+
+		.header .navi a {
+			cursor: pointer;
+			text-decoration: none;
+			color: black;
+		}
+
+
+		.header nav{
+			background-color: #E4F1FE;
+
+		}
+	.video{
+		background-color: #C5EFF7;
+		padding-top:20px;
+		padding-bottom:20px;
+
+	}
+
+		.video .videocontainer{
+			background-color:#34495e;
+			height:315px;
+			border-radius: 6px;
+		}
+
+
+	.team{
+		background-color: #336E7B;
+		padding-top:20px;
+		padding-bottom:20px;
+
+	}

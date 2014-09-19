@@ -14,7 +14,9 @@
     <link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">  
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
     
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -24,27 +26,32 @@
   </head>
   <body>
     <div class="container-fluid fill header">
-      <div class="row">
+      <nav role="navigation" class="navbar  navbar-fixed-top">
+      <div class="row" >
         <div class="col-sm-1 col-sm-offset-1 logo"> Datactive </div>
 
-        <div class="col-sm-1 col-sm-offset-1 links"> Datactive </div>
-        <div class="col-sm-1 col-sm-offset-1 links"> Datactive </div>
-        <div class="col-sm-1 col-sm-offset-1 links"> Datactive </div>
-        <div class="col-sm-1 col-sm-offset-1 links"> Datactive </div>
+        <div class="col-sm-1 col-sm-offset-1 text-center links navi"> <a id="registerLink" href="#register" class="smoothScroll">Register </a></div>
+        <div class="col-sm-1 col-sm-offset-1  text-center links navi"> <a id="teaserLink" href="#teaser" class="smoothScroll">Teaser </a> </div>
+        <div class="col-sm-1 col-sm-offset-1 text-center links navi"> <a  id="teamLink" href="#team" class="smoothScroll">Team </a> </div>
+        <div class="col-sm-1 col-sm-offset-1  text-center links navi"> <a id="registrLink" href="#register" class="smoothScroll">Teaser </a> </div>
       </div>
-
-      <div class="row">
-          <div class="col-sm-12 text-center title"> DATA SCIENCE MADE EASY </div>
+       </nav>
+      
+      <div class="row" id="register">
+          <div class="col-sm-12 text-center title">UNLOCK THE POWER OF DATA </div>
       </div>
-
       <div class="row">
+          <div class="col-sm-12 text-center subtitle">(in a glance)</div>
+      </div>
+   
+      <div class="row pad">
           <div class="col-sm-12 text-center subtitle"> le 23 octobre à escp europe </div>
       </div>
 
 
     </div>
 
-  <div class="container-fluid fill video">
+  <div class="container-fluid fill video" id="teaser">
     <div class="row">
 
       <div class="col-sm-4 col-sm-offset-1 videocontainer"> 
@@ -56,9 +63,42 @@
       </div>
       
 
-      <div class="col-sm-4 col-sm-offset-1 "> 
-         Datactive c'est quoi? 
-        
+      <div class="col-sm-4 col-sm-offset-1  "> 
+        <h5 class="row subtitle">
+          Datactive c'est quoi? 
+        </h5>
+
+        <p>
+          Tumblr small batch Echo Park, pug 90's Pinterest authentic Kickstarter selvage. Tote bag Godard PBR, Austin meh brunch typewriter. Pug Brooklyn skateboard American Apparel meggings. Banksy mumblecore pickled twee cred disrupt Shoreditch Godard pop-up. Gentrify street art tote bag letterpress mumblecore. Irony ugh sustainable trust fund small batch. Beard banjo vegan, +1 sartorial keytar Vice Intelligentsia fanny pack Thundercats whatever Shoreditch sustainable.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+    <div class="container-fluid fill team" id="team">
+    <div class="row">
+
+      <div class="col-sm-4 col-sm-offset-1 videocontainer"> 
+        <div class="col-sm-1 col-sm-offset-4"> 
+          <button type="button" class="btn btn-default btn-lg" style="margin-top:130px; margin-right:auto">
+            <span class="glyphicon glyphicon-play"></span> Play
+          </button>
+        </div>
+      </div>
+      
+
+      <div class="col-sm-4 col-sm-offset-1  "> 
+        <h5 class="row subtitle">
+          Datactive c'est quoi? 
+        </h5>
+
+        <p>
+          Tumblr small batch Echo Park, pug 90's Pinterest authentic Kickstarter selvage. Tote bag Godard PBR, Austin meh brunch typewriter. Pug Brooklyn skateboard American Apparel meggings. Banksy mumblecore pickled twee cred disrupt Shoreditch Godard pop-up. Gentrify street art tote bag letterpress mumblecore. Irony ugh sustainable trust fund small batch. Beard banjo vegan, +1 sartorial keytar Vice Intelligentsia fanny pack Thundercats whatever Shoreditch sustainable.
+        </p>
+
       </div>
 
     </div>
@@ -67,5 +107,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+  
+    <script type="text/javascript" src="js/function.js"></script>
   </body>
 </html>
