@@ -115,3 +115,22 @@ button{
 	padding-bottom: 10px;
 	border-bottom: #ccc 2px solid;
 }
+
+.team h2{
+	font-family: 'Lobster Two', cursive;
+	font-size: 40px;
+	color:black;
+	margin-bottom: 40px;
+
+}
+
+.team{
+	
+	padding-top: 30px;
+
+}
+
+.team .skill{
+	color:black;
+	font-size: 14px;
+}
