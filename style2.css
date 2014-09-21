@@ -52,7 +52,13 @@ body{
 
 		.header nav{
 			background-color: #E4F1FE;
-
+		}
+			@media (min-width: 168px) {
+				#register{
+			  
+   				margin-top: 100px;
+  			
+		}
 		}
 	.video{
 		background-color: #C5EFF7;
