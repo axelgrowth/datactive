@@ -95,3 +95,23 @@ button{
 .event span{
 	color:#4183D7;
 }
+
+.competences{
+	background-color: #4183D7;
+	padding-top: 30px;
+
+}
+
+.competences h2{
+	font-family: 'Lobster Two', cursive;
+	font-size: 40px;
+	color:black;
+
+}
+
+.competences .skill h3{
+	font-family: 'Lobster Two', cursive;
+	color:white;
+	padding-bottom: 10px;
+	border-bottom: #ccc 2px solid;
+}
