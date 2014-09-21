@@ -4,7 +4,11 @@ body{
 	color:white;
 }
 
-
+ .btn-primary{
+	background-color: #4d92cf ;
+	border: solid 2px #3280c3 ;
+	border-color: #3280c3;
+}
 
 .top{
 	background-color: white;
@@ -46,6 +50,36 @@ body{
 	color: #CCC;
 }
 
+.title .metro {
+	font-family: 'Lobster Two', cursive;
+	font-size: 30px;	
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 45px;
+	display: inline-block;
+	border:solid 1px white;
+	color: white;
+	margin-left: 20px;
+
+}
+
+
+.title .trois {
+	font-family: 'Lobster Two', cursive;
+	font-size: 30px;	
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 45px;
+	display: inline-block;
+	color: white;
+	background-color: #9a9940;
+	margin-left: 5px;
+
+}
+
+
 button{
 	margin-top: 30px;
 	font-size: 40px;
@@ -56,7 +90,7 @@ button{
 
 .teaser-vid{
 	margin-top: 20px;
-	background-color: #4183D7;
+	background-color: #4d92cf;
 	height:315px;
 	line-height:315px;
 	width:420px;
@@ -72,6 +106,7 @@ button{
 }
 .teaser-text{
 	color:black;
+	font-size: 17px;	
 }
 
 .teaser-text h2{
@@ -97,8 +132,9 @@ button{
 }
 
 .competences{
-	background-color: #4183D7;
+	background-color: #4d92cf;
 	padding-top: 30px;
+	padding-bottom: 30px;
 
 }
 
@@ -127,6 +163,8 @@ button{
 .team{
 	
 	padding-top: 30px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #EEEEEE;
 
 }
 
@@ -134,3 +172,40 @@ button{
 	color:black;
 	font-size: 14px;
 }
+.skill img{
+	margin-right: 8px;
+}
+
+.partenaires{
+	color:black;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #EEEEEE;
+
+}
+
+.partenaires h2{
+	font-family: 'Lobster Two', cursive;
+	font-size: 40px;
+	color:black;
+	margin-bottom: 40px;}
+
+	.partenaires button{
+		margin-left: 20px
+	}
+
+
+.signature{
+	padding-top: 30px;
+	color:#ccc;
+	font-size: 12px;
+	padding-bottom: 30px
+}
+
+.signature .logo img{margin-bottom:20px;}
+
+.signature a {
+	text-decoration: none;
+	color: #ccc;
+}
+
