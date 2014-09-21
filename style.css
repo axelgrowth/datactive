@@ -1,9 +1,42 @@
 body{
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 18px;
+	color:white;
 }
 
 .subtitle{
-	font-family: 'Lobster Two', cursive;
-	font-size: 20px;
+	
+	font-size: 25px;
+}
+
+.cover{
+	background-image: url('img/cover.jpeg');
+	
+	background-size: cover;
+	background-position: center;
+	padding-top: 120px;
+	padding-bottom: 30px;
+
+}
+
+
+@media (max-width:700px){
+		.cover{padding-top:80px;
+				padding-right: 50px;
+				padding-left: 50px;
+		}
+}
+.logo{
+		font-family: 'Lobster Two', cursive;
+		font-size: 50px;	
+		color: #fff;
+}
+
+button{
+	margin-top: 30px;
+	font-size: 40px;
+	color:black;
+	background-color: white;
+
+
 }
