@@ -4,18 +4,24 @@ body{
 	color:white;
 }
 
-.subtitle{
-	
-	font-size: 25px;
+
+
+.top{
+	background-color: white;
+	font-family: 'Lobster Two', cursive;
+	font-size: 50px;	
+	color: black;
+
 }
 
 .cover{
 	background-image: url('img/cover.jpeg');
 	
 	background-size: cover;
-	background-position: center;
+	background-position:center;
 	padding-top: 120px;
 	padding-bottom: 30px;
+
 
 }
 
@@ -26,10 +32,16 @@ body{
 				padding-left: 50px;
 		}
 }
-.logo{
-		font-family: 'Lobster Two', cursive;
-		font-size: 50px;	
+.title{
+		padding-top: 70px;
+		font-size: 30px;	
 		color: #fff;
+}
+
+.title span{
+	
+	font-size: 20px;
+	color: #CCC;
 }
 
 button{
