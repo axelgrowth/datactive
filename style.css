@@ -34,12 +34,13 @@ body{
 }
 .title{
 		padding-top: 70px;
+		font-family: 'Lobster Two', cursive;
 		font-size: 30px;	
 		color: #fff;
 }
 
 .title span{
-	
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 20px;
 	color: #CCC;
 }
