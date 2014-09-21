@@ -55,6 +55,7 @@ button{
 
 
 .teaser-vid{
+	margin-top: 20px;
 	background-color: #4183D7;
 	height:315px;
 	line-height:315px;
@@ -76,5 +77,21 @@ button{
 .teaser-text h2{
 	font-family: 'Lobster Two', cursive;
 	margin-bottom: 17px;
+}
 
+.event{
+	color:#333;
+	margin-top: 80px;
+	line-height: 40px;
+	margin-bottom: 80px;
+}
+
+.event p{
+	font-family: 'Lobster Two', cursive;
+	font-size: 30px;
+	line-height: 40px;
+}
+
+.event span{
+	color:#4183D7;
 }
