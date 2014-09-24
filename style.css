@@ -19,7 +19,7 @@ body{
 }
 
 .cover{
-	background-image: url('img/cover.jpeg');
+	background-image: url('img/cover.png');
 	
 	background-size: cover;
 	background-position:center;
@@ -42,6 +42,7 @@ body{
 		font-family: 'Lobster Two', cursive;
 		font-size: 30px;	
 		color: #fff;
+		line-height: 30px;
 }
 
 .title span{
@@ -81,10 +82,14 @@ body{
 
 
 button{
-	margin-top: 30px;
+	margin-top: 20px;
 	font-size: 40px;
 	color:black;
 	background-color: white;
+}
+
+.cover .subtitle{
+	padding-right: 0px;
 }
 
 
@@ -101,47 +106,52 @@ button{
 .teaser-vid span{	vertical-align: middle; display: inline-block;}
 
 .teaser{
-	padding-top:20px;
-	padding-bottom: 20px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.teaser h2{
+	font-family: 'Lobster Two', cursive;
+	font-size: 40px;
+	color:black;
+	margin-bottom:40px; 
+	margin-top:0px; 
 }
 .teaser-text{
 	color:black;
 	font-size: 17px;	
+	margin-top: 15px;
 }
 
-.teaser-text h2{
+.teaser-text .subtitle{
 	font-family: 'Lobster Two', cursive;
 	margin-bottom: 17px;
+	font-size: 24px; 
 }
 
-.event{
-	color:#333;
-	margin-top: 80px;
-	line-height: 40px;
-	margin-bottom: 80px;
-}
 
-.event p{
-	font-family: 'Lobster Two', cursive;
-	font-size: 30px;
-	line-height: 40px;
-}
-
-.event span{
-	color:#4183D7;
-}
 
 .competences{
+
+	/*font-size: 16px;*/
 	background-color: #4d92cf;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 
 }
+
+.competences p{
+
+	font-size: 16px;
+}
+
 
 .competences h2{
 	font-family: 'Lobster Two', cursive;
 	font-size: 40px;
 	color:black;
+	margin-top: 0px;
+	margin-bottom: 40px;
 
 }
 
@@ -149,7 +159,7 @@ button{
 	font-family: 'Lobster Two', cursive;
 	color:white;
 	padding-bottom: 10px;
-	border-bottom: #ccc 2px solid;
+	border-bottom: #fff 1px solid;
 }
 
 .team h2{
@@ -157,13 +167,13 @@ button{
 	font-size: 40px;
 	color:black;
 	margin-bottom: 40px;
-
+	margin-top: 0px;
 }
 
 .team{
 	
-	padding-top: 30px;
-	padding-bottom: 50px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	border-bottom: 1px solid #EEEEEE;
 
 }
@@ -174,6 +184,7 @@ button{
 }
 .skill img{
 	margin-right: 8px;
+
 }
 
 .partenaires{
