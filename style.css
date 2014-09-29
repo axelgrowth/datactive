@@ -107,7 +107,8 @@ button{
 
 .teaser{
 	padding-top: 40px;
-	padding-bottom: 60px;
+	padding-bottom: 60px; 
+	color:black;
 }
 
 
@@ -119,22 +120,37 @@ button{
 	padding-right: 20px;
 	padding-left: 20px;
     margin-right: 5px;
+    color:white;
 }
 
 .countdown-separator {
 	font-family: 'Lobster Two', cursive;
 	font-size: 50px;
+	line-height: 60px;
 	color: black;
-}
+	padding-left: 20px;
 
+}
+.countdown-separator-white {
+	font-family: 'Lobster Two', cursive;
+	font-size: 50px;
+	line-height: 2px;
+	color: white;
+	padding-left: 20px;
+
+}
 .countdown-time {
 	font-family: : 'Lobster Two', cursive;
 	font-size: 30px;
 	color: black;
-	padding-left: 60px;
+	
 }
 
-#Heures {
+.separator{
+	margin-top: 30px;
+}
+
+/*#Heures {
 	font-family: : 'Lobster Two', cursive;
 	padding-left: 25px;
 	padding-right: 95px;
@@ -143,14 +159,17 @@ button{
 #Jours {
 	padding-right: 35px;
 }
-
+*/
 .defi {
 
 	/*font-size: 16px;*/
 	background-color: #4d92cf;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	
+}	
+
+.jours{
+color:black;	
 
 
 }

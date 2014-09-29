@@ -44,23 +44,23 @@
 
 })(jQuery);
 
-function checkScreen (){
+// function checkScreen (){
 
-	if($("#register").isOnScreen()){
+// 	if($("#register").isOnScreen()){
 
-		document.getElementById('registerLink').style.borderBottom = 	"2px solid #22313F"
-		document.getElementById('teamLink').style.borderBottom = 	"none"
-		document.getElementById('teaserLink').style.borderBottom = 	"none"
-	}else if ($("#team").isOnScreen()) {
+// 		document.getElementById('registerLink').style.borderBottom = 	"2px solid #22313F"
+// 		document.getElementById('teamLink').style.borderBottom = 	"none"
+// 		document.getElementById('teaserLink').style.borderBottom = 	"none"
+// 	}else if ($("#team").isOnScreen()) {
 
-		document.getElementById('teamLink').style.borderBottom = 	"2px solid #22313F"
-		document.getElementById('teaserLink').style.borderBottom = 	"none"
-		document.getElementById('registerLink').style.borderBottom = 	"none"
-	}else {
-		document.getElementById('teaserLink').style.borderBottom = 	"2px solid #22313F"
-		document.getElementById('registerLink').style.borderBottom = 	"none"
-		document.getElementById('teamLink').style.borderBottom = 	"none"
-	}
-};
+// 		document.getElementById('teamLink').style.borderBottom = 	"2px solid #22313F"
+// 		document.getElementById('teaserLink').style.borderBottom = 	"none"
+// 		document.getElementById('registerLink').style.borderBottom = 	"none"
+// 	}else {
+// 		document.getElementById('teaserLink').style.borderBottom = 	"2px solid #22313F"
+// 		document.getElementById('registerLink').style.borderBottom = 	"none"
+// 		document.getElementById('teamLink').style.borderBottom = 	"none"
+// 	}
+// };
 
-window.onscroll= checkScreen;
+// window.onscroll= checkScreen;
