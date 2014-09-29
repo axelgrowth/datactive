@@ -106,32 +106,145 @@ button{
 .teaser-vid span{	vertical-align: middle; display: inline-block;}
 
 .teaser{
-	padding-top: 60px;
+	padding-top: 40px;
 	padding-bottom: 60px;
 }
 
-.teaser h2{
+
+.countdown {
+	background-color: #4d92cf;
+	font-family: 'Lobster Two', cursive;
+	font-size: 50px;
+	line-height: 60px;
+	padding-right: 20px;
+	padding-left: 20px;
+    margin-right: 5px;
+}
+
+.countdown-separator {
+	font-family: 'Lobster Two', cursive;
+	font-size: 50px;
+	color: black;
+}
+
+.countdown-time {
+	font-family: : 'Lobster Two', cursive;
+	font-size: 30px;
+	color: black;
+	padding-left: 60px;
+}
+
+#Heures {
+	font-family: : 'Lobster Two', cursive;
+	padding-left: 25px;
+	padding-right: 95px;
+}
+
+#Jours {
+	padding-right: 35px;
+}
+
+.defi {
+
+	/*font-size: 16px;*/
+	background-color: #4d92cf;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	
+
+
+}
+
+.defi h2 {
 	font-family: 'Lobster Two', cursive;
 	font-size: 40px;
-	color:black;
-	margin-bottom:40px; 
-	margin-top:0px; 
-}
-.teaser-text{
-	color:black;
-	font-size: 17px;	
-	margin-top: 15px;
+	color: black;
+	margin-top: 0px;
+	margin-bottom: 40px;
+    
 }
 
-.teaser-text .subtitle{
+.defi p {
+	font-size: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+    color: white
+    ;
+}
+
+.details {
+
+	/*font-size: 16px;*/
+	color: black;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+
+}
+
+.details h2 {
 	font-family: 'Lobster Two', cursive;
-	margin-bottom: 17px;
-	font-size: 24px; 
+	font-size: 40px;
+	color: black;
+	margin-top: 0px;
+	margin-bottom: 40px;
 }
 
+.details div {
+	text-align: center;
+}
 
+.details p {
+	font-size: 20px;
+	font-family: 'Lobster Two', cursive;
+    color: black;
+}
 
-.competences{
+.details p strong {
+	margin-right: 20px;
+}
+
+.what {
+	/*font-size: 16px;*/
+	color: black;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: left;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.what h2 {
+	font-family: 'Lobster Two', cursive;
+	font-size: 40px;
+	color: black;
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+.what p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	color: black;
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+.what-btn {
+	display: inline;
+}
+
+.what-img {
+	height: 30px;
+	width: 30px;
+	margin-left: 450px;
+	margin-bottom: -95px;
+}
+
+.sontonsse {
+	margin-top: -30px;
+}
+
+.competences {
 
 	/*font-size: 16px;*/
 	background-color: #4d92cf;
@@ -187,12 +300,40 @@ button{
 
 }
 
-.partenaires{
+.contact {
+	color: black;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.contact h2 {
+	font-family: 'Lobster Two', cursive;
+	font-size: 40px;
+	color:black;
+	margin-top: 0px;
+	margin-bottom: 40px; 
+}
+
+.contact-detail {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16px;
+	color: black;
+	text-align: left;
+}
+
+.contact-img {
+	float: left;
+	margin-left: 530px;
+	margin-right: 20px;
+	padding-bottom: 5px;
+}
+
+.partenaires {
 	color:black;
 	padding-top: 30px;
 	padding-bottom: 50px;
 	border-bottom: 1px solid #EEEEEE;
-
+    text-align: center;
 }
 
 .partenaires h2{
@@ -201,9 +342,13 @@ button{
 	color:black;
 	margin-bottom: 40px;}
 
-	.partenaires button{
+.partenaires button{
 		margin-left: 20px
 	}
+
+.partenaires img {
+	display: inline-block;
+}
 
 
 .signature{
