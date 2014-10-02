@@ -5,30 +5,33 @@ body{
 }
 
  .btn-primary{
-	background-color: #4d92cf ;
+	background-color: red ;
 	border: solid 1px #3280c3 ;
 	border-color: #3280c3;
 }
 
 .top{
-	background-color: white;
-	font-family: 'Lobster Two', cursive;
+
+	font-family: 'Century Gothic', cursive;
 	font-size: 50px;	
 	color: black;
 
 }
 
 .cover{
-	background-image: url('img/cover.png');
-	
 	background-size: cover;
+	background-image: url("http://assets.thecreatorsproject.com/videos/images/000/000/006/taken_by_JR_if_used_need_to_be_paid_for_original.jpg");
 	background-position:center;
 	padding-top: 120px;
 	padding-bottom: 30px;
 
 
 }
-
+@media (max-width:900px){
+		.contact-detail { 
+				text-align: center;
+		}
+	}
 
 @media (max-width:700px){
 		.cover{padding-top:80px;
@@ -39,9 +42,17 @@ body{
 }
 .title{
 		padding-top: 10px;
-		font-family: 'Lobster Two', cursive;
+		font-family: 'Century Gothic', sans-serif;
 		font-size: 30px;	
-		color: #fff;
+		color: black;
+		line-height: 30px;
+}
+
+.subtitle {
+		padding-top: 10px;
+		font-family: 'Century Gothic', sans-serif;
+		font-size: 15px;	
+		color: black;
 		line-height: 30px;
 }
 
@@ -52,7 +63,7 @@ body{
 }
 
 .title .metro {
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Century Gothic', cursive;
 	font-size: 30px;	
 	width: 45px;
 	height: 45px;
@@ -67,7 +78,7 @@ body{
 
 
 .title .trois {
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Century Gothic', cursive;
 	font-size: 30px;	
 	width: 45px;
 	height: 45px;
@@ -92,46 +103,185 @@ button{
 	padding-right: 0px;
 }
 
-
+/*
 .teaser-vid{
 	margin-top: 20px;
 	background-color: #4d92cf;
 	height:315px;
 	line-height:315px;
 	width:420px;
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Century Gothic', cursive;
 	font-size: 50px;
 	color:#fff;
 }
 .teaser-vid span{	vertical-align: middle; display: inline-block;}
 
+*/
+
 .teaser{
+	padding-top: 40px;
+	padding-bottom: 60px; 
+	color:black;
+}
+
+.teaser h2 {
+	font-family: 'Century Gothic', cursive;
+	font-size: 30px;
+}
+
+.countdown {
+	background-color: black;
+	font-family: 'Century Gothic', cursive;
+	font-size: 50px;
+	line-height: 60px;
+	padding-right: 20px;
+	padding-left: 20px;
+    margin-right: 5px;
+    color:white;
+}
+
+.countdown-separator {
+	font-family: 'Century Gothic', cursive;
+	font-size: 50px;
+	line-height: 60px;
+	color: black;
+	padding-left: 20px;
+
+}
+.countdown-separator-white {
+	font-family: 'Century Gothic', cursive;
+	font-size: 50px;
+	line-height: 2px;
+	color: white;
+	padding-left: 20px;
+
+}
+.countdown-time {
+	font-family: : 'Century Gothic', cursive;
+	font-size: 30px;
+	color: black;
+	
+}
+
+.separator{
+	margin-top: 30px;
+}
+
+/*#Heures {
+	font-family: : 'Century Gothic', cursive;
+	padding-left: 25px;
+	padding-right: 95px;
+}
+
+#Jours {
+	padding-right: 35px;
+}
+*/
+.program {
+
+	/*font-size: 16px;*/
+	background-color: none;
 	padding-top: 60px;
 	padding-bottom: 60px;
+}	
+
+.jours{
+color:black;	
+
+
 }
 
-.teaser h2{
-	font-family: 'Lobster Two', cursive;
+.program h2 {
+	font-family: 'Century Gothic', cursive;
+	font-size: 30px;
+	color: black;
+	margin-top: 0px;
+	margin-bottom: 40px;
+    
+}
+
+.program-desc {
+	font-size: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.details {
+
+	/*font-size: 16px;*/
+	color: black;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+
+}
+
+.details h2 {
+	font-family: 'Century Gothic', cursive;
 	font-size: 40px;
-	color:black;
-	margin-bottom:40px; 
-	margin-top:0px; 
-}
-.teaser-text{
-	color:black;
-	font-size: 17px;	
-	margin-top: 15px;
+	color: black;
+	margin-top: 0px;
+	margin-bottom: 40px;
 }
 
-.teaser-text .subtitle{
-	font-family: 'Lobster Two', cursive;
-	margin-bottom: 17px;
-	font-size: 24px; 
+.details div {
+	text-align: center;
 }
 
+.details p {
+	font-size: 20px;
+	font-family: 'Century Gothic', cursive;
+    color: black;
+}
 
+.details p strong {
+	margin-right: 20px;
+}
 
-.competences{
+.what {
+	/*font-size: 16px;*/
+	color: black;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: left;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.what h2 {
+	font-family: 'Century Gothic', cursive;
+	font-size: 40px;
+	color: black;
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+.what p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	color: black;
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+.what-btn {
+	display: inline;
+}
+
+.what-img {
+	height: 30px;
+	width: 30px;
+	margin-left: 450px;
+	margin-bottom: -95px;
+}
+
+.sontonsse {
+	margin-top: -30px;
+}
+
+.competences {
 
 	/*font-size: 16px;*/
 	background-color: #4d92cf;
@@ -147,7 +297,7 @@ button{
 
 
 .competences h2{
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Century Gothic', cursive;
 	font-size: 40px;
 	color:white;
 	margin-top: 0px;
@@ -156,14 +306,14 @@ button{
 }
 
 .competences .skill h3{
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Century Gothic', cursive;
 	color:white;
 	padding-bottom: 10px;
 	border-bottom: #fff 1px solid;
 }
 
 .team h2{
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Century Gothic', cursive;
 	font-size: 40px;
 	color:black;
 	margin-bottom: 40px;
@@ -187,23 +337,54 @@ button{
 
 }
 
-.partenaires{
+.contact {
+	color: black;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.contact h2 {
+	font-family: 'Century Gothic', cursive;
+	font-size: 40px;
+	color:black;
+	margin-top: 0px;
+	margin-bottom: 40px; 
+}
+
+.contact-detail {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16px;
+	color: black;
+	text-align: left;
+}
+
+.contact-img {
+	
+	margin-right: 20px;
+	padding-bottom: 5px;
+}
+
+.partenaires {
 	color:black;
 	padding-top: 30px;
 	padding-bottom: 50px;
 	border-bottom: 1px solid #EEEEEE;
-
+    text-align: center;
 }
 
 .partenaires h2{
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Century Gothic', cursive;
 	font-size: 40px;
 	color:black;
 	margin-bottom: 40px;}
 
-	.partenaires button{
+.partenaires button{
 		margin-left: 20px
 	}
+
+.partenaires img {
+	display: inline-block;
+}
 
 
 .signature{
