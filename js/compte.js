@@ -29,4 +29,3 @@ document.getElementById('uniteM').innerHTML=minuteunite;
 
 compte_a_rebours();
 setInterval(function(){compte_a_rebours()}, 1500);
-

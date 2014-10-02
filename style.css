@@ -5,30 +5,33 @@ body{
 }
 
  .btn-primary{
-	background-color: #4d92cf ;
+	background-color: red ;
 	border: solid 1px #3280c3 ;
 	border-color: #3280c3;
 }
 
 .top{
-	background-color: white;
-	font-family: 'Lobster Two', cursive;
+
+	font-family: 'Century Gothic', cursive;
 	font-size: 50px;	
 	color: black;
 
 }
 
 .cover{
-	background-image: url('img/cover.png');
-	
 	background-size: cover;
+	background-image: url("http://assets.thecreatorsproject.com/videos/images/000/000/006/taken_by_JR_if_used_need_to_be_paid_for_original.jpg");
 	background-position:center;
 	padding-top: 120px;
 	padding-bottom: 30px;
 
 
 }
-
+@media (max-width:900px){
+		.contact-detail { 
+				text-align: center;
+		}
+	}
 
 @media (max-width:700px){
 		.cover{padding-top:80px;
@@ -39,9 +42,17 @@ body{
 }
 .title{
 		padding-top: 10px;
-		font-family: 'Lobster Two', cursive;
+		font-family: 'Century Gothic', sans-serif;
 		font-size: 30px;	
-		color: #fff;
+		color: black;
+		line-height: 30px;
+}
+
+.subtitle {
+		padding-top: 10px;
+		font-family: 'Century Gothic', sans-serif;
+		font-size: 15px;	
+		color: black;
 		line-height: 30px;
 }
 
@@ -52,7 +63,7 @@ body{
 }
 
 .title .metro {
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Century Gothic', cursive;
 	font-size: 30px;	
 	width: 45px;
 	height: 45px;
@@ -67,7 +78,7 @@ body{
 
 
 .title .trois {
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Century Gothic', cursive;
 	font-size: 30px;	
 	width: 45px;
 	height: 45px;
@@ -92,18 +103,20 @@ button{
 	padding-right: 0px;
 }
 
-
+/*
 .teaser-vid{
 	margin-top: 20px;
 	background-color: #4d92cf;
 	height:315px;
 	line-height:315px;
 	width:420px;
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Century Gothic', cursive;
 	font-size: 50px;
 	color:#fff;
 }
 .teaser-vid span{	vertical-align: middle; display: inline-block;}
+
+*/
 
 .teaser{
 	padding-top: 40px;
@@ -111,10 +124,14 @@ button{
 	color:black;
 }
 
+.teaser h2 {
+	font-family: 'Century Gothic', cursive;
+	font-size: 30px;
+}
 
 .countdown {
-	background-color: #4d92cf;
-	font-family: 'Lobster Two', cursive;
+	background-color: black;
+	font-family: 'Century Gothic', cursive;
 	font-size: 50px;
 	line-height: 60px;
 	padding-right: 20px;
@@ -124,7 +141,7 @@ button{
 }
 
 .countdown-separator {
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Century Gothic', cursive;
 	font-size: 50px;
 	line-height: 60px;
 	color: black;
@@ -132,7 +149,7 @@ button{
 
 }
 .countdown-separator-white {
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Century Gothic', cursive;
 	font-size: 50px;
 	line-height: 2px;
 	color: white;
@@ -140,7 +157,7 @@ button{
 
 }
 .countdown-time {
-	font-family: : 'Lobster Two', cursive;
+	font-family: : 'Century Gothic', cursive;
 	font-size: 30px;
 	color: black;
 	
@@ -151,7 +168,7 @@ button{
 }
 
 /*#Heures {
-	font-family: : 'Lobster Two', cursive;
+	font-family: : 'Century Gothic', cursive;
 	padding-left: 25px;
 	padding-right: 95px;
 }
@@ -160,10 +177,10 @@ button{
 	padding-right: 35px;
 }
 */
-.defi {
+.program {
 
 	/*font-size: 16px;*/
-	background-color: #4d92cf;
+	background-color: none;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }	
@@ -174,20 +191,21 @@ color:black;
 
 }
 
-.defi h2 {
-	font-family: 'Lobster Two', cursive;
-	font-size: 40px;
+.program h2 {
+	font-family: 'Century Gothic', cursive;
+	font-size: 30px;
 	color: black;
 	margin-top: 0px;
 	margin-bottom: 40px;
     
 }
 
-.defi p {
+.program-desc {
 	font-size: 20px;
 	font-family: 'Open Sans Condensed', sans-serif;
-    color: white
-    ;
+    color: black;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .details {
@@ -201,7 +219,7 @@ color:black;
 }
 
 .details h2 {
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Century Gothic', cursive;
 	font-size: 40px;
 	color: black;
 	margin-top: 0px;
@@ -214,7 +232,7 @@ color:black;
 
 .details p {
 	font-size: 20px;
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Century Gothic', cursive;
     color: black;
 }
 
@@ -233,7 +251,7 @@ color:black;
 }
 
 .what h2 {
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Century Gothic', cursive;
 	font-size: 40px;
 	color: black;
 	margin-top: 0px;
@@ -279,7 +297,7 @@ color:black;
 
 
 .competences h2{
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Century Gothic', cursive;
 	font-size: 40px;
 	color:black;
 	margin-top: 0px;
@@ -288,14 +306,14 @@ color:black;
 }
 
 .competences .skill h3{
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Century Gothic', cursive;
 	color:white;
 	padding-bottom: 10px;
 	border-bottom: #fff 1px solid;
 }
 
 .team h2{
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Century Gothic', cursive;
 	font-size: 40px;
 	color:black;
 	margin-bottom: 40px;
@@ -326,7 +344,7 @@ color:black;
 }
 
 .contact h2 {
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Century Gothic', cursive;
 	font-size: 40px;
 	color:black;
 	margin-top: 0px;
@@ -341,8 +359,7 @@ color:black;
 }
 
 .contact-img {
-	float: left;
-	margin-left: 530px;
+	
 	margin-right: 20px;
 	padding-bottom: 5px;
 }
@@ -356,7 +373,7 @@ color:black;
 }
 
 .partenaires h2{
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Century Gothic', cursive;
 	font-size: 40px;
 	color:black;
 	margin-bottom: 40px;}
