@@ -6,21 +6,24 @@ body{
 
  .btn-primary{
 	background-color: red ;
-	border: solid 1px #3280c3 ;
-	border-color: #3280c3;
+	border: none;
 }
 
 .top{
 
-	font-family: 'Century Gothic', cursive;
+	font-family: 'Permanent Marker';
 	font-size: 50px;	
 	color: black;
 
 }
 
+#data {
+	color: red;
+}
+
 .cover{
 	background-size: cover;
-	background-image: url("http://assets.thecreatorsproject.com/videos/images/000/000/006/taken_by_JR_if_used_need_to_be_paid_for_original.jpg");
+	background-color: black;
 	background-position:center;
 	padding-top: 120px;
 	padding-bottom: 30px;
@@ -42,9 +45,9 @@ body{
 }
 .title{
 		padding-top: 10px;
-		font-family: 'Century Gothic', sans-serif;
+		font-family: 'Permanent Marker';
 		font-size: 30px;	
-		color: black;
+		color: red;
 		line-height: 30px;
 }
 
@@ -52,7 +55,7 @@ body{
 		padding-top: 10px;
 		font-family: 'Century Gothic', sans-serif;
 		font-size: 15px;	
-		color: black;
+		color: white;
 		line-height: 30px;
 }
 
@@ -180,7 +183,6 @@ button{
 .program {
 
 	/*font-size: 16px;*/
-	background-color: none;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }	
@@ -215,7 +217,6 @@ color:black;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	text-align: center;
-
 }
 
 .details h2 {
@@ -252,7 +253,7 @@ color:black;
 
 .what h2 {
 	font-family: 'Century Gothic', cursive;
-	font-size: 40px;
+	font-size: 30px;
 	color: black;
 	margin-top: 0px;
 	margin-bottom: 40px;
@@ -281,9 +282,11 @@ color:black;
 	margin-top: -30px;
 }
 
+/*
+
 .competences {
 
-	/*font-size: 16px;*/
+	/*font-size: 16px;
 	background-color: #4d92cf;
 	padding-top: 60px;
 	padding-bottom: 60px;
@@ -336,6 +339,8 @@ color:black;
 	margin-right: 8px;
 
 }
+
+*/
 
 .contact {
 	color: black;
