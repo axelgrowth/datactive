@@ -5,24 +5,38 @@ body{
 }
 
  .btn-primary{
-	background-color: red ;
-	border: solid 1px #3280c3 ;
-	border-color: #3280c3;
+	background-color: #d85a5c ;
+	border: none;
+	
+}
+
+.btn-primary:hover {
+	background-color: black;
+}
+
+.datactive-presents {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 15px;
+	color: black;
 }
 
 .top{
 
-	font-family: 'Century Gothic', cursive;
-	font-size: 50px;	
+	font-family: 'Permanent Marker';
+	font-size: 32px;	
 	color: black;
 
 }
 
+#data {
+	color: #d85a5c;
+}
+
 .cover{
 	background-size: cover;
-	background-image: url("http://assets.thecreatorsproject.com/videos/images/000/000/006/taken_by_JR_if_used_need_to_be_paid_for_original.jpg");
+	background-color: white;
 	background-position:center;
-	padding-top: 120px;
+	padding-top: 30px;
 	padding-bottom: 30px;
 
 
@@ -42,15 +56,15 @@ body{
 }
 .title{
 		padding-top: 10px;
-		font-family: 'Century Gothic', sans-serif;
+		font-family: 'Permanent Marker';
 		font-size: 30px;	
-		color: black;
+		color: #d85a5c;
 		line-height: 30px;
 }
 
 .subtitle {
 		padding-top: 10px;
-		font-family: 'Century Gothic', sans-serif;
+		font-family: 'Open Sans Condensed', sans-serif;
 		font-size: 15px;	
 		color: black;
 		line-height: 30px;
@@ -122,6 +136,7 @@ button{
 	padding-top: 40px;
 	padding-bottom: 60px; 
 	color:black;
+	background-color: #f2f3f4;
 }
 
 .teaser h2 {
@@ -136,7 +151,6 @@ button{
 	line-height: 60px;
 	padding-right: 20px;
 	padding-left: 20px;
-    margin-right: 5px;
     color:white;
 }
 
@@ -152,7 +166,7 @@ button{
 	font-family: 'Century Gothic', cursive;
 	font-size: 50px;
 	line-height: 2px;
-	color: white;
+	color: #f2f3f4;
 	padding-left: 20px;
 
 }
@@ -180,7 +194,6 @@ button{
 .program {
 
 	/*font-size: 16px;*/
-	background-color: none;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }	
@@ -215,7 +228,6 @@ color:black;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	text-align: center;
-
 }
 
 .details h2 {
@@ -232,12 +244,16 @@ color:black;
 
 .details p {
 	font-size: 20px;
-	font-family: 'Century Gothic', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
     color: black;
 }
 
 .details p strong {
 	margin-right: 20px;
+}
+
+.container-what {
+	background-color: #f2f3f4;
 }
 
 .what {
@@ -248,11 +264,12 @@ color:black;
 	text-align: left;
 	margin-left: 100px;
 	margin-right: 100px;
+	background-color: #f2f3f4;
 }
 
 .what h2 {
 	font-family: 'Century Gothic', cursive;
-	font-size: 40px;
+	font-size: 30px;
 	color: black;
 	margin-top: 0px;
 	margin-bottom: 40px;
@@ -281,9 +298,11 @@ color:black;
 	margin-top: -30px;
 }
 
+/*
+
 .competences {
 
-	/*font-size: 16px;*/
+	/*font-size: 16px;
 	background-color: #4d92cf;
 	padding-top: 60px;
 	padding-bottom: 60px;
@@ -336,6 +355,8 @@ color:black;
 	margin-right: 8px;
 
 }
+
+*/
 
 .contact {
 	color: black;
